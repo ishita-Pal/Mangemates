@@ -1,0 +1,62 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+.whate {
+    stroke: white;
+    fill:paleturquoise;
+
+    transition: fill .4s ease;
+} 
+
+path:hover {
+    fill: orange;
+}
+
+#ind-map {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 100%;
+    height: 100%;
+}
+.whate:hover, circle:hover {
+  stroke: #002860;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868;
+  cursor: pointer;
+}
+#path67 {
+  fill: none;
+  stroke: #A9A9A9;
+  cursor: default;
+}
+#details-box1 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #000000;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+#details-box {
+  opacity: 0;
+  top: 651px;
+  left: 1078px;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 14px;
+  position: fixed;
+  color: white;
+  font-family: "Poppins";
+  background-color: rgb(80, 96, 139);
+  width: fit-content;
+  transform: translateX(-50%);
+  transition: opacity .4s ease;
+  z-index: 1;
+}

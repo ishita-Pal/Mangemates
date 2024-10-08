@@ -1,0 +1,47 @@
+/* Home.css */
+
+.heading {
+    margin-left: 5%;
+  }
+  
+  .px-5 {
+    padding-right: 45rem !important;
+    padding-left: 3rem !important;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .employee-list-wrapper {
+    flex: 3;
+    margin-right: 20px;
+  padding-left: 40px;
+    
+  }
+  
+  .calendar-wrapper {
+    flex: 1;
+    margin-top: 2%;
+  }
+
+  .m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .birthday{
+    flex: 3;
+    margin-right: 20px;
+  padding-left: 40px;
+  }
+  .notice{
+    flex: 2;
+    margin-top: 2%
+  }
+  .leave{
+    flex: 6;
+
+  }

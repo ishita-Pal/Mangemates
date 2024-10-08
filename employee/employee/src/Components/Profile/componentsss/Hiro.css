@@ -1,0 +1,14 @@
+/* Adjust the size of the image with "aos-init aos-animate" class */
+/* .aos-init.aos-animate {
+    max-width: 1000%; 
+    max-height: 1000vh; 
+  }
+   */
+/* .img{
+    width:200px;
+    height:200px;
+} */
+
+.body{
+    background-color: antiquewhite;
+}

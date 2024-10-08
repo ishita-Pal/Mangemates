@@ -1,0 +1,59 @@
+
+
+.birthday-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.birthday-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333333;
+}
+
+.birthday-entry {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.mike {
+    background: url("./../../assets/bg1.jpg") no-repeat center/cover;
+}
+
+.sandy {
+    background: url('./../../assets/bg2.jpg') no-repeat center/cover; 
+}
+
+.ariv {
+    background: url("./../../assets/bg1.jpg") no-repeat center/cover;
+    /* background: url('ariv.png') no-repeat center/cover; Replace with actual image path or styling */
+}
+
+.details {
+    text-align: left;
+}
+
+.name {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+}
+
+.role {
+    font-size: 14px;
+    color: #777777;
+}
